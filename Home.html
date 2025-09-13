@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1cc88a, #36b9cc);
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #333;
+    }
+
+    .content {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .content h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    .logout-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 25px;
+      background: #e74a3b;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+
+    .logout-btn:hover {
+      background: #c0392b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>Welcome to the Home Page 🎉</h2>
+    <p>
+      You have successfully logged in! This is your homepage. 
+      From here, you can navigate to other sections like About and Contact.
+    </p>
+    <a href="login.html" class="logout-btn">Logout</a>
+  </div>
+</body>
+</html>
